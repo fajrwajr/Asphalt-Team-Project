@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">
+      <Link class="navbar-brand" to="/">
         NashvilleAsphalt
-      </a>
+      </Link>
       <button
         class="navbar-toggler"
         type="button"
@@ -26,9 +26,9 @@ export const Navbar = () => {
             </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Gallery.html">
+            <Link class="nav-link" to="/gallery">
               GALLERY
-            </a>
+            </Link>
           </li>
           <li class="nav-item dropdown">
             <a
