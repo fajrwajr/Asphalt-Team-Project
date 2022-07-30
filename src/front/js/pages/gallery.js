@@ -1,5 +1,4 @@
 import React from "react";
-import { Navbar } from "../component/navbar";
 import image1 from "../../img/asphalt2.jpg";
 import image2 from "../../img/asphalt2.jpg";
 import image3 from "../../img/asphalt3.jpg";
