@@ -17,7 +17,7 @@ export const Contact = () => {
                       <div className="row">
                         <div className="col-md-6">
                           <div className="form-group">
-                            <label for="form_name">Firstname *</label>
+                            <label htmlfor="form_name">Firstname *</label>
                             <input
                               id="form_name"
                               type="text"
@@ -31,7 +31,7 @@ export const Contact = () => {
                         </div>
                         <div className="col-md-6">
                           <div className="form-group">
-                            <label for="form_lastname">Lastname *</label>
+                            <label htmlfor="form_lastname">Lastname *</label>
                             <input
                               id="form_lastname"
                               type="text"
@@ -47,7 +47,7 @@ export const Contact = () => {
                       <div className="row">
                         <div className="col-md-6">
                           <div className="form-group">
-                            <label for="form_email">Email *</label>
+                            <label htmlfor="form_email">Email *</label>
                             <input
                               id="form_email"
                               type="email"
@@ -61,7 +61,7 @@ export const Contact = () => {
                         </div>
                         <div className="col-md-6">
                           <div className="form-group">
-                            <label for="form_need">
+                            <label htmlfor="form_need">
                               Please specify your need *
                             </label>
                             <select
@@ -83,7 +83,7 @@ export const Contact = () => {
                       <div className="row">
                         <div className="col-md-12">
                           <div className="form-group">
-                            <label for="form_message">Message *</label>
+                            <label htmlfor="form_message">Message *</label>
                             <textarea
                               id="form_message"
                               name="message"
