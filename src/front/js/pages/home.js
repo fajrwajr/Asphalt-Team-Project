@@ -5,9 +5,16 @@ import { Link } from "react-router-dom";
 export const Home = (props) => (
   <html lang="en">
     <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta charSet="UTF-8" />
+      <meta http-Equiv="X-UA-Compatible" content="IE=edge" />
       <link rel="stylesheet" href="styles.css" />
+      <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+      />
+
       <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -48,22 +55,29 @@ export const Home = (props) => (
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              class="d-block w-100 h-50"
-              src="https://picsum.photos/1000/1000?random=1"
+              class="d-block w-100"
+              src="https://placeimg.com/1080/500/animals"
               alt="First slide"
             />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>My Caption Title (1st Image)</h5>
+              <p>
+                The whole caption will only show up if the screen is at least
+                medium size.
+              </p>
+            </div>
           </div>
           <div class="carousel-item">
             <img
-              class="d-block w-100 h-50"
-              src="https://picsum.photos/1000/1000?random=2"
+              class="d-block w-100"
+              src="https://placeimg.com/1080/500/arch"
               alt="Second slide"
             />
           </div>
           <div class="carousel-item">
             <img
-              class="d-block w-100 h-50"
-              src="https://picsum.photos/1000/1000?random=3"
+              class="d-block w-100"
+              src="https://placeimg.com/1080/500/nature"
               alt="Third slide"
             />
           </div>
@@ -285,6 +299,21 @@ export const Home = (props) => (
       ></script>
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"
       ></script>
