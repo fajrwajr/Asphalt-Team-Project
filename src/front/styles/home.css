@@ -8,6 +8,10 @@
 .carousel-inner {
   height: 450px;
 }
+.coolestcard {
+  position: relative;
+  width: 400px;
+}
 .gallery {
   margin: 10px;
 }
