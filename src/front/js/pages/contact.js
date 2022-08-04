@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useContext, useState } from "react";
+import { Context } from "../store/appContext";
 
 export const Contact = () => {
+  const { store, actions } = useContext(Context);
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
   return (
     <>
       <div className="container">
@@ -22,6 +29,7 @@ export const Contact = () => {
                               id="form_name"
                               type="text"
                               name="name"
+                              onChange={(e) => setFirstName(e.target.value)}
                               className="form-control"
                               placeholder="Please enter your firstname *"
                               required="required"
@@ -36,6 +44,7 @@ export const Contact = () => {
                               id="form_lastname"
                               type="text"
                               name="surname"
+                              onChange={(e) => setLastName(e.target.value)}
                               className="form-control"
                               placeholder="Please enter your lastname *"
                               required="required"
@@ -52,6 +61,7 @@ export const Contact = () => {
                               id="form_email"
                               type="email"
                               name="email"
+                              onChange={(e) => setEmail(e.target.value)}
                               className="form-control"
                               placeholder="Please enter your email *"
                               required="required"
@@ -87,6 +97,7 @@ export const Contact = () => {
                             <textarea
                               id="form_message"
                               name="message"
+                              onChange={(e) => setMessage(e.target.value)}
                               className="form-control"
                               placeholder="Write your message here."
                               rows="4"
@@ -97,11 +108,21 @@ export const Contact = () => {
                         </div>
 
                         <div className="col-md-12">
-                          <input
+                          <button
                             type="submit"
+                            onClick={() =>
+                              actions.sendMessage({
+                                firstName,
+                                lastName,
+                                email,
+                                message,
+                              })
+                            }
                             className="btn btn-success btn-send pt-2 btn-block"
                             value="Send Message"
-                          />
+                          >
+                            Submit
+                          </button>
                         </div>
                       </div>
                     </div>
