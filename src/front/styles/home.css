@@ -11,6 +11,7 @@
 .coolestcard {
   position: relative;
   width: 400px;
+  margin: 0 auto;
 }
 .gallery {
   margin: 10px;

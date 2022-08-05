@@ -202,7 +202,7 @@ export const Home = (props) => (
 
     <div className="row">
       <div className="card-deck">
-        <div className="card border-0 coolestcard ">
+        <div className="card border-0 coolestcard">
           <img
             className="card-img-top"
             src="https://picsum.photos/1000/1000?random=4"
