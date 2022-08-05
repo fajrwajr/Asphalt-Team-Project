@@ -9,9 +9,13 @@
   height: 450px;
 }
 .coolestcard {
-  position: relative;
+  display: inline-block;
+  /* position: relative; */
   width: 400px;
 }
 .gallery {
   margin: 10px;
+}
+html {
+  background-color: gray;
 }
