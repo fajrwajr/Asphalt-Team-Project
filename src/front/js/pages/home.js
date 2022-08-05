@@ -200,7 +200,7 @@ export const Home = (props) => (
       </div>
     </div>
 
-    <div className="row ">
+    <div className="row">
       <div className="card-deck">
         <div className="coolestcard col-sm-4">
           <div className="card border-0 ">
