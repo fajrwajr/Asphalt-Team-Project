@@ -10,6 +10,7 @@ export const Home = (props) => (
     <meta charSet="UTF-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="navbar.css" />
 
     <link
       rel="stylesheet"
@@ -36,7 +37,6 @@ export const Home = (props) => (
       type="text/css"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="shortcut icon" href="favicon.ico" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -77,11 +77,11 @@ export const Home = (props) => (
       </button>
     </div>
 
-    <div className="allservicecards">
+    <div className="allservicecards ">
       <div className="servicecardsleft">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center bg-transparent">
           <div className="col-sm-6">
-            <div className="card border-0">
+            <div className="border-0">
               <div className="row card-body">
                 <div className="col-sm-6">
                   <h5 className="card-title">Sealcoating</h5>
@@ -102,7 +102,7 @@ export const Home = (props) => (
         </div>
       </div>
       <div className="servicecardsright mx-auto">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center bg-transparent">
           <div className="col-sm-6">
             <div className="card border-0">
               <div className="row card-body">
@@ -125,7 +125,7 @@ export const Home = (props) => (
         </div>
       </div>
       <div className="servicecardsleft">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center bg-transparent">
           <div className="col-sm-6">
             <div className="card border-0">
               <div className="row card-body">
@@ -151,7 +151,7 @@ export const Home = (props) => (
         </div>
       </div>
       <div className="servicecardsright">
-        <div className="row  justify-content-center">
+        <div className="row  justify-content-center bg-transparent">
           <div className="col-sm-6">
             <div className="card border-0">
               <div className="row card-body">
@@ -175,7 +175,7 @@ export const Home = (props) => (
         </div>
       </div>
       <div className="servicecardsleft">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center bg-transparent">
           <div className="col-sm-6">
             <div className="card border-0">
               <div className="row card-body">

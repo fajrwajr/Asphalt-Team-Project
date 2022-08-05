@@ -18,5 +18,9 @@
   margin: 10px;
 }
 html {
-  background-color: gray;
+  background-color: rgb(54, 52, 50);
+}
+.allservicecards {
+  text-decoration-color: yellow;
+  background-color: rgb(54, 52, 50);
 }

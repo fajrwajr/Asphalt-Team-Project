@@ -4,7 +4,6 @@ import { CDBFooter, CDBFooterLink, CDBBox, CDBBtn, CDBIcon } from "cdbreact";
 export const Footer = () => {
   return (
     <>
-      <link rel="stylesheet" src="footer.css" />
       <footer class="w-100 py-4 flex-shrink-0">
         <div class="container py-4">
           <div class="row gy-4 gx-5">
