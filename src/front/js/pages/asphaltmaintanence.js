@@ -6,7 +6,7 @@ export const Asphalt = () => {
     <div>
       <img src={image9} className="img-fluid sealcoatingimg" alt="..." />
 
-      {/* <p>
+      <p>
         Asphalt Care Guide A GUIDE TO PREVENTIVE ASPHALT MAINTENANCE The
         following information is provided to help you understand asphalt, its
         capabilities and how to maintain it. Hot mix asphalt is a mixture of
@@ -217,7 +217,7 @@ export const Asphalt = () => {
         maintenance such as crack sealing and re-striping. It is our goal at
         Missouri Sealing & Striping to help you obtain the most out of your
         asphalt investment.
-      </p> */}
+      </p>
     </div>
   );
 };

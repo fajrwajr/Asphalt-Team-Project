@@ -3,8 +3,8 @@ import image9 from "../../img/pavingroad2.jpg";
 
 export const Sealcoating = () => {
   return (
-    <div className="sealcoating">
-      <img src={image9} className="img-fluid sealcoatingimg" alt="..." />
+    <div className="servicepages">
+      <img src={image9} className="img-fluid sedrvicepagesimg" alt="..." />
       <h1 className="text-warning">
         <bold>Nashville Asphalt Sealing & Striping</bold> is Nashvilles Premier
         Seal Coating Contractor. Our highly trained crews and state of the art
