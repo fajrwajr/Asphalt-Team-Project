@@ -1,12 +1,12 @@
 import React from "react";
 import image9 from "../../img/pavingroad2.jpg";
-
+import "../../styles/home.css";
 export const Asphalt = () => {
   return (
     <div>
       <img src={image9} className="img-fluid sealcoatingimg" alt="..." />
 
-      <p>
+      <p class="text">
         Asphalt Care Guide A GUIDE TO PREVENTIVE ASPHALT MAINTENANCE The
         following information is provided to help you understand asphalt, its
         capabilities and how to maintain it. Hot mix asphalt is a mixture of
