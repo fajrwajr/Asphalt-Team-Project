@@ -28,6 +28,11 @@ img {
 .gallery {
   margin: 10px;
 }
+
+p {
+  font-family: "Nunito", sans-serif;
+}
+
 html {
   background-color: rgb(54, 52, 50);
 }
