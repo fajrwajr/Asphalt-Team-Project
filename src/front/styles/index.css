@@ -1,3 +1,56 @@
 /* 
     General Styles used on every website (Don't Repeat Yourself)
 */
+html,
+body {
+  color: #000;
+  background-color: #fcda2e !important;
+  font-family: "Roboto", sans-serif;
+}
+.contact-form {
+  padding: 50px;
+  margin: 30px auto;
+}
+.contact-form h1 {
+  font-size: 42px;
+  font-family: "Pacifico", sans-serif;
+  margin: 0 0 50px;
+  text-align: center;
+}
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+.contact-form .form-control,
+.contact-form .btn {
+  min-height: 38px;
+  border-radius: 2px;
+}
+.contact-form .form-control {
+  border-color: #e2c705;
+}
+.contact-form .form-control:focus {
+  border-color: #d8b012;
+  box-shadow: 0 0 8px #dcae10;
+}
+.contact-form .btn-primary {
+  min-width: 250px;
+  color: #fcda2e;
+  background: #000;
+  margin-top: 20px;
+  border: none;
+}
+.contact-form .btn-primary:hover {
+  color: #fff;
+}
+.contact-form .btn-primary i {
+  margin-right: 5px;
+}
+.contact-form label {
+  opacity: 0.9;
+}
+.contact-form textarea {
+  resize: vertical;
+}
+.bs-example {
+  margin: 20px;
+}
