@@ -4,12 +4,15 @@
 html,
 body {
   color: #000;
-  background-color: #fcda2e !important;
+  /* background-color: #fcda2e !important; */
   font-family: "Roboto", sans-serif;
+  background-color: rgb(54, 52, 50) !important;
 }
 .contact-form {
   padding: 50px;
   margin: 30px auto;
+  margin-top: -65px;
+  background-color: #fcda2e;
 }
 .contact-form h1 {
   font-size: 42px;
@@ -18,7 +21,7 @@ body {
   text-align: center;
 }
 .contact-form .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .contact-form .form-control,
 .contact-form .btn {
