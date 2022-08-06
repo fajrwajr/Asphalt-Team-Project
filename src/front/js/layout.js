@@ -6,7 +6,7 @@ import { Home } from "./pages/home";
 import { Contact } from "./pages/contact";
 import { Gallery } from "./pages/gallery";
 import { Sealcoating } from "./pages/sealcoating.js";
-import { Asphaltcareguide } from "./pages/asphaltmaintanence.js";
+import { Asphalt } from "./pages/asphaltmaintanence.js";
 import { Crackfilling } from "./pages/crackfilling.js";
 import { Stripingandsignage } from "./pages/stripingandsignage.js";
 
@@ -26,7 +26,7 @@ const Layout = () => {
             <Route element={<Home />} path="/" />
             <Route element={<Contact />} path="/contact" />
             <Route element={<Gallery />} path="/gallery" />
-            <Route element={<Asphaltcareguide />} path="/apshaltcareguide" />
+            <Route element={<Asphalt />} path="/asphaltcareguide" />
             <Route element={<Sealcoating />} path="/sealcoating" />
             <Route element={<Crackfilling />} path="/crackfilling" />
             <Route

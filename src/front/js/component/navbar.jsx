@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar  navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg">
       <Link className="text-warning navbar-brand" to="/">
         NashvilleAsphalt
       </Link>
