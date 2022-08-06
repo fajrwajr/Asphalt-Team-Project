@@ -20,7 +20,12 @@
 html {
   background-color: rgb(54, 52, 50);
 }
-.allservicecards {
-  text-decoration-color: yellow;
+.servicecards {
   background-color: rgb(54, 52, 50);
+}
+.servicetext {
+  text-decoration-color: yellow;
+}
+.container {
+  padding: 15px;
 }
