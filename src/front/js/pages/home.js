@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/home.css";
 import { Link } from "react-router-dom";
-import image1 from "../../img/asphalt2.jpg";
+import image1 from "../../img/bigstock.jpg";
 import image2 from "../../img/asphalt2.jpg";
 import image3 from "../../img/asphalt3.jpg";
 
@@ -11,26 +11,6 @@ export const Home = (props) => (
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="navbar.css" />
-
-    <link
-      rel="stylesheet"
-      href={image1}
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossOrigin="anonymous"
-    />
-
-    <link
-      rel="stylesheet"
-      href={image2}
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossOrigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href={image2}
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossOrigin="anonymous"
-    />
 
     <link
       rel="stylesheet"
@@ -77,9 +57,9 @@ export const Home = (props) => (
       </button>
     </div>
 
-    <div className="allservicecards ">
-      <div className="servicecardsleft">
-        <div className="row justify-content-center bg-transparent">
+    <div className="allservicecards text-warning">
+      <div className="servicecardsleft ">
+        <div className="row justify-content-center">
           <div className="col-sm-6">
             <div className="border-0">
               <div className="row card-body">
@@ -91,26 +71,18 @@ export const Home = (props) => (
                     Read More
                   </a>
                 </div>
-                <img
-                  className="col-sm-6"
-                  src="https://picsum.photos/1000/1000?random=12"
-                  alt="sans"
-                />
+                <img className="col-sm-6" src={image1} alt="sans" />
               </div>
             </div>
           </div>
         </div>
       </div>
       <div className="servicecardsright mx-auto">
-        <div className="row justify-content-center bg-transparent">
+        <div className="row justify-content-center">
           <div className="col-sm-6">
             <div className="card border-0">
               <div className="row card-body">
-                <img
-                  className="col-sm-6"
-                  src="https://picsum.photos/1000/1000?random=13"
-                  alt="sans"
-                />
+                <img className="col-sm-6" src={image1} alt="sans" />
                 <div className="col-sm-6">
                   <h5 className="card-title">Asphalt pavement and repair</h5>
                   <p className="card-text">Asphalt paving and patching.</p>
@@ -140,11 +112,7 @@ export const Home = (props) => (
                     Read More
                   </a>
                 </div>
-                <img
-                  className="col-sm-6"
-                  src="https://picsum.photos/1000/1000?random=14"
-                  alt="sans"
-                />
+                <img className="col-sm-6" src={image1} alt="sans" />
               </div>
             </div>
           </div>
