@@ -10,7 +10,7 @@ export const Contact = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="contactform container">
         <div className="text-center mt-5">
           <h1>Nashville Asphalt Contact Form</h1>
         </div>

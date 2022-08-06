@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { CDBFooter, CDBFooterLink, CDBBox, CDBBtn, CDBIcon } from "cdbreact";
 
 export const Footer = () => {
@@ -8,49 +9,27 @@ export const Footer = () => {
         <div class="container py-4">
           <div class="row gy-4 gx-5">
             <div class="col-lg-4 col-md-6">
-              <h5 class="h1 text-white">FB.</h5>
-              <p class="small text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt.
-              </p>
-              <p class="small text-muted mb-0">
-                &copy; Copyrights. All rights reserved.{" "}
-                <a class="text-primary" href="#">
-                  Bootstrapious.com
-                </a>
-              </p>
+              <h5 class="h1 text-white">
+                Thats how asphalt is done.{" "}
+                <h1 className="text-warning">Nashville Asphalt.</h1>
+              </h5>
             </div>
             <div class="col-lg-2 col-md-6">
-              <h5 class="text-white mb-3">Quick links</h5>
+              <h5 class="text-white mb-3">Questions?</h5>
               <ul class="list-unstyled text-muted">
                 <li>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">Get started</a>
-                </li>
-                <li>
-                  <a href="#">FAQ</a>
+                  <Link to="/contact">Get in touch</Link>
                 </li>
               </ul>
             </div>
             <div class="col-lg-2 col-md-6">
-              <h5 class="text-white mb-3">Quick links</h5>
+              <h5 class="text-white mb-3">Quick Info</h5>
               <ul class="list-unstyled text-muted">
                 <li>
-                  <a href="#">Home</a>
+                  <a href="#">Phone Number</a>
                 </li>
                 <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">Get started</a>
-                </li>
-                <li>
-                  <a href="#">FAQ</a>
+                  <a href="#">Email</a>
                 </li>
               </ul>
             </div>

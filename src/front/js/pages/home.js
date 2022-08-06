@@ -1,9 +1,15 @@
 import React from "react";
 import "../../styles/home.css";
 import { Link } from "react-router-dom";
-import image1 from "../../img/bigstock.jpg";
-import image2 from "../../img/asphalt2.jpg";
-import image3 from "../../img/asphalt3.jpg";
+import image1 from "../../img/cracksealing.jpeg";
+import image2 from "../../img/pavingroad.jpg";
+import image3 from "../../img/road.jpg";
+import image4 from "../../img/striping.jpg";
+import image5 from "../../img/cracksealing2.jpg";
+import image6 from "../../img/walmartparkinglot.jpg";
+import image7 from "../../img/striping2.jpg";
+import image8 from "../../img/cracksealing3.jpg";
+import image9 from "../../img/pavingroad2.jpg";
 
 export const Home = (props) => (
   <>
@@ -14,13 +20,16 @@ export const Home = (props) => (
     >
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="4000">
+          <h1 class="carouseltext text-warning">Commercial Paving</h1>
+          <img src={image3} className="d-block w-100" alt="..." />
+        </div>
+        <div className="carousel-item" data-bs-interval="4000">
+          <h1 class="carouseltext text-warning">Crack Seal</h1>
           <img src={image1} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item" data-bs-interval="4000">
-          <img src={image1} className="d-block w-100" alt="..." />
-        </div>
-        <div className="carousel-item" data-bs-interval="4000">
-          <img src={image1} className="d-block w-100" alt="..." />
+          <h1 class="carouseltext text-warning">Striping and Signage</h1>
+          <img src={image4} className="d-block w-100" alt="..." />
         </div>
       </div>
       <button
@@ -42,15 +51,17 @@ export const Home = (props) => (
         <span className="visually-hidden">Next</span>
       </button>
     </div>
-
     <div className="servicecards">
-      <div className="container">
-        <div className="row justify-content-center">
-          <img src={image2} className="col-6" />
+      <div className="container ">
+        <div className="row justify-content-center topcard">
+          <img src={image9} className="imagecard col-6" />
           <div className="text-warning col-4">
             <h1>Sealcoating</h1>
+            <br></br>
             <h3>Protect and beautify your asphalt parking lot.</h3>
-            <button> Read more</button>
+            <button type="button" class="btn btn-warning">
+              Service
+            </button>
           </div>
         </div>
       </div>
@@ -58,19 +69,25 @@ export const Home = (props) => (
         <div className="row justify-content-center">
           <div className="text-warning col-4">
             <h1>Hot Pour Crack Filling</h1>
+            <br></br>
             <h3>Prevent water intrusion to the subbase.</h3>
-            <button> Read more</button>
+            <button type="button" class="btn btn-warning">
+              Service
+            </button>{" "}
           </div>
-          <img src={image2} className="col-6" />
+          <img src={image8} className="imagecard col-6" />
         </div>
       </div>
       <div className="container">
         <div className="row justify-content-center">
-          <img src={image2} className="col-6" />
+          <img src={image5} className="imagecard col-6" />
           <div className="text-warning col-4">
             <h1>Striping and Signage</h1>
-            <h3>ensure patrons know where to park and comply with ADA.</h3>
-            <button> Read more</button>
+            <br></br>
+            <h3>Ensure patrons know where to park and comply with ADA.</h3>
+            <button type="button" class="btn btn-warning">
+              Service
+            </button>{" "}
           </div>
         </div>
       </div>
@@ -78,58 +95,31 @@ export const Home = (props) => (
         <div className="row justify-content-center">
           <div className="text-warning col-4">
             <h1>Asphalt Paving and Repair</h1>
+            <br></br>
             <h3>Asphalt paving and patching.</h3>
-            <button> Read more</button>
+            <button type="button" class="btn btn-warning">
+              Service
+            </button>{" "}
           </div>
-          <img src={image2} className="col-6" />
+          <img src={image2} className="imagecard col-6" />
         </div>
       </div>
     </div>
-
     <div className="row">
       <div className="card-deck">
         <div className="coolestcard col-sm-4">
           <div className="card border-0 ">
-            <img className="card-img-top" src={image1} alt="Card image cap" />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-            </div>
-            <div className="card-footer">
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </div>
+            <img className="card-img-top" src={image6} alt="Card image cap" />
+          </div>
+        </div>
+        <div className="coolestcard col-sm-4">
+          <div className="card border-0">
+            <img className="card-img-top" src={image7} alt="Card image cap" />
           </div>
         </div>
         <div className="coolestcard col-sm-4">
           <div className="card border-0">
             <img className="card-img-top" src={image1} alt="Card image cap" />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This card has supporting text below as a natural lead-in to
-                additional content.
-              </p>
-            </div>
-            <div className="card-footer">
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-        <div className="coolestcard col-sm-4">
-          <div className="card border-0">
-            <img className="card-img-top" src={image1} alt="Card image cap" />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
-              </p>
-            </div>
           </div>
         </div>
       </div>

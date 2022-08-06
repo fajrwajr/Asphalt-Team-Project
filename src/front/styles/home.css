@@ -10,7 +10,8 @@
 }
 .coolestcard {
   display: inline-block;
-  /* position: relative; */
+  padding-left: 10px;
+  padding-right: 10px;
   width: 400px;
   margin: 0 auto;
 }
@@ -23,9 +24,31 @@ html {
 .servicecards {
   background-color: rgb(54, 52, 50);
 }
-.servicetext {
-  text-decoration-color: yellow;
-}
+
 .container {
   padding: 15px;
+}
+.topcard {
+  padding-top: 20px;
+}
+.imagecard {
+  border-radius: 10%;
+}
+.navbar {
+  background-color: rgb(54, 52, 50);
+}
+
+.carouseltext {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  font-size: 70px;
+  transform: translate(-50%, -50%);
+}
+
+.contactform {
+  background-color: rgb(54, 52, 50);
+}
+.gallery {
+  background-color: rgb(54, 52, 50);
 }

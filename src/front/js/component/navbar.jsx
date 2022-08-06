@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="nashvilleasphalt navbar-brand" to="/">
+    <nav className="navbar  navbar-expand-lg">
+      <Link className="text-warning navbar-brand" to="/">
         NashvilleAsphalt
       </Link>
       <button
@@ -21,40 +21,14 @@ export const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link className="nav-link" to="/contact">
+            <Link className="text-warning nav-link" to="/contact">
               CONTACT US
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/gallery">
+            <Link className="text-warning nav-link" to="/gallery">
               GALLERY
             </Link>
-          </li>
-          <li className="nav-item dropdown">
-            <a
-              className="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              SERVICES
-            </a>
-            <div
-              className="dropdown-menu"
-              aria-labelledby="navbarDropdownMenuLink"
-            >
-              <a className="dropdown-item" href="#">
-                Action
-              </a>
-              <a className="dropdown-item" href="#">
-                Another action
-              </a>
-              <a className="dropdown-item" href="#">
-                Something else here
-              </a>
-            </div>
           </li>
         </ul>
       </div>
