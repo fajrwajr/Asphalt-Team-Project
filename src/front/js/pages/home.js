@@ -7,20 +7,6 @@ import image3 from "../../img/asphalt3.jpg";
 
 export const Home = (props) => (
   <>
-    <meta charSet="UTF-8" />
-    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="navbar.css" />
-
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="shortcut icon" href="favicon.ico" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NashvilleAsphalt</title>
     <div
       id="carouselExampleInterval"
       class="carousel slide"
