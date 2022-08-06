@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles/home.css";
 import image1 from "../../img/asphalt2.jpg";
 import image2 from "../../img/asphalt2.jpg";
 import image3 from "../../img/asphalt3.jpg";
@@ -21,13 +22,28 @@ export const Carousel = () => {
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src={image1} alt="First slide" />
+          <img
+            style="width: 100%; height: 100%"
+            class="imgOne d-block w-100 h-100"
+            src={image1}
+            alt="First slide"
+          />
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src={image2} alt="Second slide" />
+          <img
+            style="max-width: 100%"
+            class="d-block w-100"
+            src={image2}
+            alt="Second slide"
+          />
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src={image3} alt="Third slide" />
+          <img
+            style="max-width: 100%"
+            class="d-block w-100"
+            src={image3}
+            alt="Third slide"
+          />
         </div>
       </div>
       <a
