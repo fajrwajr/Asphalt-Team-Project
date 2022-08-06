@@ -30,6 +30,11 @@ export const Navbar = () => {
               GALLERY
             </Link>
           </li>
+          <li className="nav-item">
+            <Link className="text-warning nav-link" to="/asphaltcareguide">
+              ASPHALT CARE GUIDE
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

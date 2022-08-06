@@ -5,15 +5,16 @@ import ScrollToTop from "./component/scrollToTop.js";
 import { Home } from "./pages/home";
 import { Contact } from "./pages/contact";
 import { Gallery } from "./pages/gallery";
+import { Sealcoating } from "./pages/sealcoating.js";
+import { Asphaltcareguide } from "./pages/asphaltmaintanence.js";
+import { Crackfilling } from "./pages/crackfilling.js";
+import { Stripingandsignage } from "./pages/stripingandsignage.js";
 
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar.jsx";
 import { Footer } from "./component/footer.jsx";
-//create your first component
 const Layout = () => {
-  //the basename is used when your project is published in a subdirectory and not in the root of the domain
-  // you can set the basename on the .env file located at the root of this project, E.g: BASENAME=/react-hello-webapp/
   const basename = process.env.BASENAME || "";
 
   return (
@@ -25,7 +26,13 @@ const Layout = () => {
             <Route element={<Home />} path="/" />
             <Route element={<Contact />} path="/contact" />
             <Route element={<Gallery />} path="/gallery" />
-            {/* <Route element={<Single />} path="/single/:theid" /> */}
+            <Route element={<Asphaltcareguide />} path="/apshaltcareguide" />
+            <Route element={<Sealcoating />} path="/sealcoating" />
+            <Route element={<Crackfilling />} path="/crackfilling" />
+            <Route
+              element={<Stripingandsignage />}
+              path="/stripingandsignage"
+            />
             <Route element={<h1>Not found!</h1>} />
           </Routes>
           <Footer />

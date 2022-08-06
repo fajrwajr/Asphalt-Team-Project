@@ -20,15 +20,15 @@ export const Home = (props) => (
     >
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="4000">
-          <h1 class="carouseltext text-warning">Commercial Paving</h1>
+          <h1 className="carouseltext text-warning">Commercial Paving</h1>
           <img src={image3} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item" data-bs-interval="4000">
-          <h1 class="carouseltext text-warning">Crack Seal</h1>
+          <h1 className="carouseltext text-warning">Crack Seal</h1>
           <img src={image1} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item" data-bs-interval="4000">
-          <h1 class="carouseltext text-warning">Striping and Signage</h1>
+          <h1 className="carouseltext text-warning">Striping and Signage</h1>
           <img src={image4} className="d-block w-100" alt="..." />
         </div>
       </div>
@@ -59,9 +59,9 @@ export const Home = (props) => (
             <h1>Sealcoating</h1>
             <br></br>
             <h3>Protect and beautify your asphalt parking lot.</h3>
-            <button type="button" class="btn btn-warning">
+            <Link to="/sealcoating" type="button" className="btn btn-warning">
               Service
-            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -71,9 +71,9 @@ export const Home = (props) => (
             <h1>Hot Pour Crack Filling</h1>
             <br></br>
             <h3>Prevent water intrusion to the subbase.</h3>
-            <button type="button" class="btn btn-warning">
+            <Link to="/crackfilling" type="button" className="btn btn-warning">
               Service
-            </button>{" "}
+            </Link>{" "}
           </div>
           <img src={image8} className="imagecard col-6" />
         </div>
@@ -85,21 +85,25 @@ export const Home = (props) => (
             <h1>Striping and Signage</h1>
             <br></br>
             <h3>Ensure patrons know where to park and comply with ADA.</h3>
-            <button type="button" class="btn btn-warning">
+            <Link
+              to="stripingandsignage"
+              type="button"
+              className="btn btn-warning"
+            >
               Service
-            </button>{" "}
+            </Link>{" "}
           </div>
         </div>
       </div>
-      <div className="container">
-        <div className="row justify-content-center">
+      <div className="container ">
+        <div className="row justify-content-center lastcard">
           <div className="text-warning col-4">
             <h1>Asphalt Paving and Repair</h1>
             <br></br>
             <h3>Asphalt paving and patching.</h3>
-            <button type="button" class="btn btn-warning">
+            <Link to="/paving" type="button" className="btn btn-warning">
               Service
-            </button>{" "}
+            </Link>{" "}
           </div>
           <img src={image2} className="imagecard col-6" />
         </div>
