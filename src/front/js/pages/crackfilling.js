@@ -6,7 +6,7 @@ export const Crackfilling = () => {
     <div>
       <img src={image8} className="servicepagesimg" />
 
-      <p className="text-warning">
+      <p className="text-warning servicepages">
         <h1>Hot Pour Crack Filling</h1>
         Crack sealing your parking area on a yearly basis is the most cost
         effective way to reduce costly asphalt repairs. Nashville Sealing &

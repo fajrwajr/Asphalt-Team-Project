@@ -71,6 +71,14 @@ html {
 .gallery {
   background-color: rgb(54, 52, 50);
 }
+.servicepages {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
 .servicepagesimg {
   margin: 0 auto;
   margin-left: auto;
@@ -78,4 +86,7 @@ html {
   display: block;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.asphaltmaintanence {
+  padding-top: 40px;
 }

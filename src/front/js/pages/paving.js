@@ -3,9 +3,9 @@ import image2 from "../../img/pavingroad.jpg";
 
 export const Paving = () => {
   return (
-    <div className="servicepages">
-      <img src={image2} className="servicpageimg" />
-      <p className="text-warning">
+    <div className="">
+      <img src={image2} className="servicepagesimg" />
+      <p className="text-warning servicepages">
         <h1>Asphalt Paving & Repair</h1>
         <bold>Nahshville Asphalt Sealing & Striping</bold> is the Preferred
         contractor in the St. Louis area, providing asphalt paving services to

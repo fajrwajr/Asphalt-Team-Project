@@ -9,7 +9,7 @@ import { Sealcoating } from "./pages/sealcoating.js";
 import { Asphalt } from "./pages/asphaltmaintanence.js";
 import { Crackfilling } from "./pages/crackfilling.js";
 import { Stripingandsignage } from "./pages/stripingandsignage.js";
-
+import { Paving } from "./pages/paving.js";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar.jsx";
@@ -33,6 +33,7 @@ const Layout = () => {
               element={<Stripingandsignage />}
               path="/stripingandsignage"
             />
+            <Route element={<Paving />} path="/paving" />
             <Route element={<h1>Not found!</h1>} />
           </Routes>
           <Footer />

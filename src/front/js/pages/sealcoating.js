@@ -3,10 +3,11 @@ import image9 from "../../img/pavingroad2.jpg";
 
 export const Sealcoating = () => {
   return (
-    <div className="servicepages">
-      <img src={image9} className="img-fluid sedrvicepagesimg" alt="..." />
-      <h1 className="text-warning">
-        <bold>Nashville Asphalt Sealing & Striping</bold> is Nashvilles Premier
+    <div className="">
+      <img src={image9} className="img-fluid servicepagesimg" alt="..." />
+      <p className="text-warning servicepages">
+        <h1>Asphalt Sealing & Striping</h1>
+        <bold>Nashville Asphalt Sealing & Striping</bold> is Nashville's Premier
         Seal Coating Contractor. Our highly trained crews and state of the art
         application equipment will assure that your project is completed in a
         timely and professional manner.
@@ -24,7 +25,7 @@ export const Sealcoating = () => {
         <br></br>• Provides a deep black, attractive appearance inviting your
         customers to your facility.
         <br></br>{" "}
-      </h1>
+      </p>
     </div>
   );
 };

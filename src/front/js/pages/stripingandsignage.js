@@ -1,11 +1,11 @@
 import React from "react";
-import image5 from "../../img/cracksealing2.jpg";
+import image4 from "../../img/striping.jpg";
 
 export const Stripingandsignage = () => {
   return (
     <div>
-      <img src={image5} className="servicepagesimg" />
-      <p className="text-warning">
+      <img src={image4} className="servicepagesimg" />
+      <p className="text-warning servicepages">
         <h1>Striping & Signage</h1>
         <bold>Nashville Asphalt Sealing & Striping</bold> offers complete layout
         and line striping services using the best striping equipment and quality
