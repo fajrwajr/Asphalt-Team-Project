@@ -59,10 +59,11 @@ html {
 
 .carouseltext {
   position: absolute;
-  top: 30%;
+  top: 45%;
   left: 50%;
   font-size: 70px;
   transform: translate(-50%, -50%);
+  /* -webkit-text-stroke: 3px rgb(0, 0, 0); */
 }
 
 .contactform {

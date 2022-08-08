@@ -1,5 +1,6 @@
 import React from "react";
 import image8 from "../../img/cracksealing3.jpg";
+import { Link } from "react-router-dom";
 
 export const Crackfilling = () => {
   return (
@@ -19,6 +20,10 @@ export const Crackfilling = () => {
         <br></br>• This highly elastic material remains flexible to temperatures
         of 20 below zero. illing page
         <br></br>
+        <br></br>
+        <Link className="btn btn-warning" type="button" to="/contact">
+          Interested?
+        </Link>
       </p>
     </div>
   );

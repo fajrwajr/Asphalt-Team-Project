@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import image4 from "../../img/striping.jpg";
 
 export const Stripingandsignage = () => {
@@ -56,6 +57,10 @@ export const Stripingandsignage = () => {
         installation, Bollard Installation, Concrete Bumper Block installation,
         etc.
         <br></br>
+        <br></br>
+        <Link className="btn btn-warning" type="button" to="/contact">
+          Interested?
+        </Link>
       </p>
     </div>
   );

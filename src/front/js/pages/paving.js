@@ -1,5 +1,6 @@
 import React from "react";
 import image2 from "../../img/pavingroad.jpg";
+import { Link } from "react-router-dom";
 
 export const Paving = () => {
   return (
@@ -49,7 +50,11 @@ export const Paving = () => {
         We maintain equipment and qualified paving crews for large metropolitan
         projects which require the use of multiple pavers, smaller projects such
         as parking lots, driveways, sidewalks, or specialty projects such as
-        golf cart and bicycle paths, court areas, and race tracks.{" "}
+        golf cart and bicycle paths, court areas, and race tracks. <br></br>
+        <br></br>
+        <Link className="btn btn-warning" type="button" to="/contact">
+          Interested?
+        </Link>
       </p>
     </div>
   );

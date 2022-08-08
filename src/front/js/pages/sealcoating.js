@@ -1,5 +1,6 @@
 import React from "react";
 import image9 from "../../img/pavingroad2.jpg";
+import { Link } from "react-router-dom";
 
 export const Sealcoating = () => {
   return (
@@ -24,7 +25,11 @@ export const Sealcoating = () => {
         intrusion, which reduces costly asphalt repairs.
         <br></br>• Provides a deep black, attractive appearance inviting your
         customers to your facility.
+        <br></br>
         <br></br>{" "}
+        <Link className="btn btn-warning" type="button" to="/contact">
+          Interested?
+        </Link>
       </p>
     </div>
   );
