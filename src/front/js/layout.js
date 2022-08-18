@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop.js";
 
 import { Home } from "./pages/home";
-import { Contact } from "./pages/contact";
+import { Contact } from "./pages/contact.js";
 import { Gallery } from "./pages/gallery";
 import { Sealcoating } from "./pages/sealcoating.js";
 import { Asphalt } from "./pages/asphaltmaintanence.js";

@@ -75,6 +75,7 @@
 	"dependencies": {
 		"bootstrap": "^5.2.0",
 		"cdbreact": "^1.5.3",
+		"firebase": "^9.9.2",
 		"prop-types": "^15.6.1",
 		"react": "^16.8.4",
 		"react-bootstrap": "^1.6.5",
