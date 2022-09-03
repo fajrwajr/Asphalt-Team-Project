@@ -3,9 +3,9 @@ import image9 from "../../img/pavingroad2.jpg";
 import "../../styles/home.css";
 export const Asphalt = () => {
   return (
-    <div class="asphaltmaintanence">
-      <p class="text-warning servicepages">
-        <h1 class="text-warning">
+    <div className="asphaltmaintanence">
+      <p className="text-warning servicepages">
+        <h1 className="text-warning">
           <br></br>Asphalt Care Guide <br></br>
           <br></br>
         </h1>

@@ -61,7 +61,13 @@ html {
 .navbar {
   background-color: rgb(54, 52, 50);
 }
-
+.commercial {
+  position: absolute;
+  top: 45%;
+  left: 57%;
+  font-size: 70px;
+  transform: translate(-50%, -50%);
+}
 .carouseltext {
   position: absolute;
   top: 45%;

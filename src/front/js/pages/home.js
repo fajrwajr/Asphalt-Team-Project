@@ -20,7 +20,7 @@ export const Home = (props) => (
     >
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="4000">
-          <h1 className="carouseltext text-warning">Commercial Maintenance</h1>
+          <h1 className="commercial text-warning">Commercial Maintenance</h1>
           <img src={image3} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item" data-bs-interval="4000">

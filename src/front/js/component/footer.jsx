@@ -9,10 +9,10 @@ export const Footer = () => {
         <div className="container py-4">
           <div className="row gy-4 gx-5">
             <div className="col-lg-4 col-md-6">
-              <h5 className="h1 text-white">
-                Thats how asphalt is done.{" "}
-                <h1 className="text-warning">Nashville Asphalt.</h1>
-              </h5>
+              <h1 className="text-warning">
+                <h5 className="h1 text-white">Thats how asphalt is done. </h5>
+                Nashville Asphalt.
+              </h1>
             </div>
             <div className="col-lg-2 col-md-6">
               <h5 className="text-white mb-3">Questions?</h5>
