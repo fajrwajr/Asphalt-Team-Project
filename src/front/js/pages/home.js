@@ -5,7 +5,6 @@ import image1 from "../../img/cracksealing.jpeg";
 import image2 from "../../img/pavingroad.jpg";
 import image3 from "../../img/road.jpg";
 import image4 from "../../img/striping.jpg";
-// import image5 from "../../img/cracksealing2.jpg";
 import image6 from "../../img/walmartparkinglot.jpg";
 import image7 from "../../img/striping2.jpg";
 import image8 from "../../img/cracksealing3.jpg";
