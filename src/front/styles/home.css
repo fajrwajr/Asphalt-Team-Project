@@ -8,7 +8,14 @@
 nav {
   margin: 0 auto;
   padding: 0;
-  width: 75%;
+  width: 100%;
+}
+.title {
+  display: inline;
+  padding-left: 50%;
+}
+.title2 {
+  display: flex;
 }
 .carousel-inner {
   height: 450px;

@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg">
       <Link className="text-warning navbar-brand" to="/">
-        <h3>NashvilleAsphalt</h3>
+        <h3 className="title">NashvilleAsphalt</h3>
       </Link>
       <button
         className="navbar-toggler"
@@ -15,10 +15,9 @@ export const Navbar = () => {
         aria-controls="navbarNavDropdown"
         aria-expanded="false"
         aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNavDropdown">
+      ></button>
+
+      <div className="title title2" id="navbarNavDropdown">
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link className="text-warning nav-link" to="/contact">
